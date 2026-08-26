@@ -12,8 +12,11 @@ source .venv/bin/activate      # Mac / Linux
 .venv\Scripts\activate          # Windows
 pip install -r requirements.txt
 
+## Bonus Points
+Added a new function, along with a unique test for the new function, and changed the welcome message
+
 ## Run tests
 python -m pytest
 
-## Example
-Enter your name when prompted and enter the number of credits when prompted:
+## Inputs
+Enter your name when prompted and enter the number of credits when prompted
