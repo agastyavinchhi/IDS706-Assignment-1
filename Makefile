@@ -18,6 +18,14 @@ run:
 docker-build:
 	docker build -t $(IMAGE_NAME) .
 
+# Run Formatting
+format:
+	black src tests
+
+# Run Linting
+lint:
+	flake8 src tests
+
 # Run the application inside Docker
 docker-run:
 	docker run -it --rm $(IMAGE_NAME)
